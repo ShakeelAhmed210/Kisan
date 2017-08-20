@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="19dp"
+        android:gravity="center_vertical"
+        android:text="@string/total_acres"
+        android:textColor="@android:color/white"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/acFullnameTxt"
+        android:layout_width="fill_parent"
+        android:background="@android:color/white"
+        android:layout_height="40dp"
+        android:textColorHint="@android:color/white"
+        android:layout_alignTop="@+id/textView12"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="0dp"
+        android:layout_toEndOf="@+id/textView12"
+        android:hint="@string/total_acrs_hint"
+        android:inputType="number"
+        android:textColor="@android:color/white"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:textSize="11dp"
+        />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView12"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:text="@string/month"
+        android:textColor="@android:color/white"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/acEmailTxt"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:layout_alignStart="@+id/acFullnameTxt"
+        android:layout_alignTop="@+id/textView13"
+        android:hint="@string/select_month_year"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:singleLine="true"
+        android:textSize="11dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView13"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:text="@string/location"
+        android:textColor="@android:color/white"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/acPhoneTxt"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/acEmailTxt"
+        android:layout_alignTop="@+id/textView14"
+        android:hint="@string/type_location_hint"
+        android:background="@android:color/white"
+        android:imeOptions="actionNext"
+        android:inputType="phone"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:singleLine="true"
+        android:textSize="11dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView14"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:text="@string/or_text"
+        android:textColor="@android:color/white"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="@string/select_from_map"
+        android:id="@+id/select_from_map"
+        android:background="@android:color/holo_green_light"
+        android:textColor="#fff"
+        android:layout_below="@+id/textView15"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp" />
+
+
+</RelativeLayout>

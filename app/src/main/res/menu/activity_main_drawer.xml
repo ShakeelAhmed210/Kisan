@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/sell"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/sel_crops_menu" />
+        <item
+            android:id="@+id/buy"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/buy_crops_menu" />
+        <item
+            android:id="@+id/agr_suggestion"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/agri_sug_menu" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/suggestion_menu" />
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_account"
+                android:icon="@drawable/tab_account"
+                android:title="@string/account_menue" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/share" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">کسان</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="name_in_app">کسان</string>
+    <string name="action_settings">ترتیبات</string>
+    <string name="select_location">منتخب محل وقوع</string>
+    <string name="change_photo">تصویر تبدیل کرنے کیلئے کلک</string>
+    <string name="loading..">لوڈ ہو رہا ہے...</string>
+    <string name="name">نام:</string>
+    <string name="type_full_name">آپ کا پورا نام ٹائپ کریں</string>
+    <string name="email"> ای میل:</string>
+    <string name="tyoe_email_hint">آپ کا ای میل ایڈریس ٹائپ کریں</string>
+    <string name="phone">فونL:</string>
+    <string name="type_phone">آپ کے فون نمبر ٹائپ کریں</string>
+    <string name="website">ویب سائٹ:</string>
+    <string name="website_address">ex: http://mywebsite.com</string>
+    <string name="save_profile">پروفائل محفوظ کریں</string>
+    <string name="my_ads">میرے اشتھارات</string>
+    <string name="title...">عنوان....</string>
+    <string name="description...">وضاحت...</string>
+    <string name="title_post">عنوان...</string>
+    <string name="title_post_hint">فروخت کے لئے گندم...</string>
+    <string name="category">زمرہ:</string>
+    <string name="price">قیمت:</string>
+    <string name="price_hint">ex: 1000 PKR</string>
+    <string name="post_description">تفصیل</string>
+    <string name="type_des_hint">یہاں کی قسم کی وضاحت...</string>
+    <string name="adress">ایڈریس</string>
+    <string name="adress_hint">ex:Teh Kabirawal,Dist Khanewal</string>
+    <string name="images">تصاویر</string>
+    <string name="post_ad">پوسٹ شامل</string>
+    <string name="delet_add">اس اضافہ کو دور</string>
+    <string name="tap_icon">تصاویر اپ لوڈ کرنے کے لئے ماؤس کو آاکنوں پر کلک کریں</string>
+    <string name="price_pkr">قیمت: 0 PKR</string>
+    <string name="add_description">وضاحت</string>
+    <string name="adrs_loading">ایڈریس لوڈ ہو رہا ہے..</string>
+    <string name="posted_by">ایڈریس لوڈ ہو رہا ہے..</string>
+    <string name="web_loading">ویب سائٹ: لوڈنگ...</string>
+    <string name="open_in_map">کا نقشہ میں کھولیں</string>
+    <string name="contact_advertiser">مشتہر سے رابطہ کریں</string>
+    <string name="message">پیغام*:</string>
+    <string name="message_hint">آپ کے پیغام کی قسم...</string>
+    <string name="your_name">آپ کا نام*:</string>
+    <string name="type_your_name_hint">آپ کا نام ٹائپ کریں</string>
+    <string name="your_email_adrs">آپ کا ای میل ایڈریس:</string>
+    <string name="email_adrs_hint">اپنا ای میل ایڈریس ٹائپ کریں</string>
+    <string name="your_phone">آپ کا فون*:</string>
+    <string name="type_phone_hint">آپ کا فون نمبر ٹائپ کریں</string>
+    <string name="send_message">پیغام ارسال</string>
+    <string name="make_phone_call">ایک فون کال</string>
+    <string name="tap_to_close">بند کرنے کے لئے کلک کریں</string>
+    <string name="total_acres">ایکڑ:</string>
+    <string name="total_acrs_hint">قسم کل ایکڑ مثلا 25</string>
+    <string name="month">مونٹ:</string>
+    <string name="select_month_year">مہینہ منتخب کریں اور سال</string>
+    <string name="location">مقام</string>
+    <string name="type_location_hint">آپ کے مقام کی قسم</string>
+    <string name="or_text">OR</string>
+    <string name="select_from_map">MAP سے منتخب کریں</string>
+    <string name="suggeston_title" >تجاویز</string>
+
+
+
+    <array name="category_type">
+        <item>فصل</item>
+        <item>ہارٹیکلچر</item>
+        <item>پھل</item>
+        <item>سبزیاں</item>
+
+    </array>
+    <array name="sub_category_type">
+        <item>ناشپاتیاں جوار</item>
+        <item>رائس</item>
+        <item>Sorghum</item>
+        <item>گندم</item>
+
+    </array>
+    <string name="title_activity_maps">نقشہ</string>
+    <string name="suggestion">یہ آپ کے علاقے پر بالکل سلپسٹریم ہے کے طور پر آپ گندم اگانے کی ضرورت ہے</string>
+    <string name="seed">تم نے اسے اس کی پیداوار میں اضافہ کرے گا کے طور پر ہے فی ایکڑ 30 کلو کا استعمال کرنے کی ضرورت ہے
+    </string>
+    <string name="category_prompt">زمرہ انتخاب کریں</string>
+    <string-array name="category_arrays">
+        <item>فصل</item>
+        <item>غذا</item>
+        <item>نامیاتی</item>
+    </string-array>
+
+
+    <string name="Product_prompt">ایک مصنوعات میں سے انتخاب کریں</string>
+    <string-array name="Product_arrays">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+    </string-array>
+    <string name="sel_crops_menu">فصلیں بیچیں</string>
+    <string name="buy_crops_menu">فصلیں خریدیں</string>
+    <string name="agri_sug_menu">زراعت کی تجاویز</string>
+    <string name="suggestion_menu">تجاویز</string>
+    <string name="account_menue">اکاؤنٹ</string>
+    <string name="share">اسے بانٹئے</string>
+    <string name="crops_title">فصلیں</string>
+</resources>

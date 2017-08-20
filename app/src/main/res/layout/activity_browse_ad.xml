@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/add_2"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:id="@+id/adImage1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/adTitleTxt1"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/adDescTxt1"
+            android:layout_alignStart="@+id/adDescTxt1"
+            android:layout_alignTop="@+id/adImage1"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:maxLines="2"
+            android:minLines="1"
+            android:text="@string/title..."
+            android:textColor="@android:color/white"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/adDescTxt1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/adImage1"
+            android:layout_below="@+id/adTitleTxt1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/adImage1"
+            android:maxLines="2"
+            android:minLines="1"
+            android:textColor="@android:color/white"
+            android:text="@string/description..."
+            android:textSize="12dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/add_1"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:id="@+id/adImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/adTitleTxt"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/adDescTxt"
+            android:layout_alignStart="@+id/adDescTxt"
+            android:layout_alignTop="@+id/adImage"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:maxLines="2"
+            android:minLines="1"
+            android:text="@string/title..."
+            android:textColor="@android:color/white"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/adDescTxt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/adImage"
+            android:layout_below="@+id/adTitleTxt"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/adImage"
+            android:maxLines="2"
+            android:minLines="1"
+            android:text="@string/description..."
+            android:textColor="@android:color/white"
+            android:textSize="12dp" />
+
+
+    </RelativeLayout>
+</LinearLayout>
